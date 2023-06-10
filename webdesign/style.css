@@ -1,0 +1,230 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+	text-align:center;
+}
+
+/* Header */
+header {
+    
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	text-align:center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #EEEEEE;
+    
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+
+.title {
+    
+    background-size: cover;
+    background-position: center;
+    
+    display: flex;
+    align-items: center;
+	text-align:center;
+	
+}
+
+.parallax-container {
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.parallax-background {
+    background-image: url('dotaBG.jpg');
+    background-size: cover;
+    background-position: center;
+	background-attachment:fixed;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    transform: translateZ(-1px) scale(1);
+}
+
+.parallax-content {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #EEEEEE;
+    text-align: center;
+}
+
+.parallax-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.parallax-content p {
+    font-size: 18px;
+}
+
+.main-container{
+    height: 100vh;
+    width: 100%;
+    background-color: #393E46;
+    
+
+}
+
+.main-content1 {
+    margin-left: 10vh;
+    position: relative;
+    overflow: show;
+    height: 300px;
+    width: 300px;
+    background-color: transparent;
+    padding: 20px;
+    color:#EEEEEE;
+}
+
+.main-content1 h1 {
+    margin-left: 300px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 200px;
+    text-align: left;
+    font-family: Helvetica Neue;
+}
+
+.main-content1 h2 {
+    margin-left: 300px;
+    text-align: left;
+    width: 500px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    padding: 0px;
+    font-family: Helvetica Neue; 
+}
+.img-content1 {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.main-content1 p {
+    margin-left: 300px;
+    text-align: left;
+    width: 500px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    padding: 0px;
+    font-family: Helvetica Neue;
+}
+
+
+
+
+
+
+
+.main-content2 {
+    float:left;
+    margin: 10px 10px 0px 900px;
+    position: relative;
+    overflow: show;
+    height: 300px;
+    width:300px;
+    background-color: transparent;
+    color:#EEBA83 ;
+    
+}
+
+.main-content2 h1 {
+    margin-right: 215px;
+    margin-bottom: 10px;
+    float:right;
+    font-size: 24px;
+    font-weight: bold;
+    width: 300px;
+    text-align: middle;
+    font-family: Helvetica Neue;
+    
+}
+
+.main-content2 h2 {
+    margin-bottom: 15px;
+    margin-right: 100px;
+    float:right;
+    width: 500px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica Neue; 
+}
+.img-content2 {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.main-content2 p {
+    margin-right: 300px;
+    float: right;
+    width: 500px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    padding: 0px;
+    font-family: Helvetica Neue;
+    text-align: right;
+}
+
+.img-wr {
+    float:right;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 1s ease-in-out;
+}
+
+  
+
+
+
+
+
+
+
+
+
